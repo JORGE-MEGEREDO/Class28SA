@@ -21,7 +21,7 @@ function setup() {
   angle = -PI / 4;
   ground = new Ground(0, height - 1, width * 2, 1);
   tower = new Tower(150, 350, 160, 310);
-  cannon = new Cannon(180, 110, 100, 50, angle);
+ cannon = new Cannon(180, 110, 110, 50, angle);
   
 
 }
