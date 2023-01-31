@@ -10,7 +10,7 @@ class Cannon { // classe canhão
     if (keyIsDown(RIGHT_ARROW) && this.angle < 0.35) { 
       this.angle += 0.02;
       }
-      if (keyIsDown(LEFT ARROW) && this.angle> -1.45) {
+    f (keyIsDown(LEFT_ARROW) && this.angle > -1.45) {
         this.angle -= 0.02;
       }   
         
@@ -20,7 +20,7 @@ class Cannon { // classe canhão
     rotate(this.angle);  //rotaciona a imagem de acordo com o angulo dado
     rect(-10, -20, this.width, this.height); //cria a base do canhão que irá se mover
     pop(); //faz retornar para as configurações anteriores assim que o jogo é reiniciado 
-    arc(this.x - 30, this.y + 90, 140, 200, PI, TWO_PI);  //cria um arco preenchido de cinza para a base do canhão
+   arc(this.x - 30, this.y + 90, 140, 200, PI, TWO_PI); //cria um arco preenchido de cinza para a base do canhão
     noFill(); //não preenche de cor o resto da tela
   }
 }
